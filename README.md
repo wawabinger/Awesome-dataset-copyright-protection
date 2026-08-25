@@ -32,7 +32,7 @@
 
 <div align="center">
 
-| [🌁 Image Domain](#-image-domain) | [🎧 Audio Domain](#-audio-domain) | 📚 [Related Repos](#-related-repos)
+| [🌁 Image Domain](#-image-domain) | [🎧 Audio Domain](#-audio-domain) | [🔑 LLM Domain](#-llm-domain) | 📚 [Related Repos](#-related-repos)
 </div>
  
 - Each domain has been categoried into **Unlearnable** and **Traceable**. Unlearnable means the dataset is designed to prevent model training, while Traceable means the dataset is designed to trace back the data usage in trained models. 
@@ -139,6 +139,29 @@ Dataset Copyright Protection**
     - Hanqing Guo*, Junfeng Guo*, Bocheng Chen, Yuanda Wang, Xun Chen, Heng Huang, Qiben Yan and Li Xiao
     - University of Hawaii at Manoa & University of Maryland
     - [Paper](https://www.usenix.org/system/files/conference/usenixsecurity25/sec25cycle1-prepub-1193-guo-hanqing.pdf) [Code](https://github.com/audiowatermark/audiowatermark.github.io)
+<br>
+
+
+## 🔑 LLM Domain
+
+### Traceable：
+- **CodeMark: Imperceptible Watermarking for Code Datasets against Neural Code Completion Models**
+    - FSE 2023
+    - Zhensu Sun, Xiaoning Du, Fu Song*, Li Li*
+    - Beihang University
+    - [Paper](https://arxiv.org/pdf/2308.14401) 
+
+- **Proving membership in llm pretraining data via data watermarks**
+    - ACL 2024
+    - JohnnyTian-ZhengWei, RyanYixiangWang,RobinJia
+    - UniversityofSouthernCalifornia
+    - [Paper](https://aclanthology.org/2024.findings-acl.788.pdf) 
+
+- **TabularMark: Watermarking Tabular Datasets for Machine Learning**
+    - CCS 2024
+    - JohnnyTian-ZhengWei, RyanYixiangWang,RobinJia
+    - UniversityofSouthernCalifornia
+    - [Paper](https://aclanthology.org/2024.findings-acl.788.pdf) 
 <br>
 
 ## 📚 Related Repos
